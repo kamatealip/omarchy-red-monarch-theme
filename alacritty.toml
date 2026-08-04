@@ -2,6 +2,9 @@
 decorations = "none"
 opacity = 0.98 # Slight transparency for readability
 
+[font]
+size = 11.0
+
 [colors.primary]
 background = "#10090B" # Void Black
 foreground = "#EDEDED" # Moonlit White

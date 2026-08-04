@@ -27,7 +27,7 @@ osd {
   backdrop-filter: blur(8px);
   padding: 12px 20px; /* Compact spacing */
   font-family: "JetBrains Mono", monospace; /* Clean typography */
-  font-size: 13px; /* Smaller, cleaner font */
+  font-size: 11px; /* Match theme-wide font size */
 }
 
 image {
