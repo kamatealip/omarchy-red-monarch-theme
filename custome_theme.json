@@ -79,7 +79,7 @@
     },
     "hyprland": {
       "general": {
-        "active_border": "rgba(BF1111AA) rgba(BF111166) 90deg",
+        "active_border": "rgba(BF1111FF)",
         "inactive_border": "rgba(120B0D99)",
         "border_size": 3,
         "gaps_in": 2,
@@ -90,14 +90,14 @@
         "active_opacity": 0.98,
         "inactive_opacity": 0.98,
         "shadow": {
-          "enabled": true,
+          "enabled": false,
           "color": "rgba(BF111166)",
           "color_inactive": "rgba(10090B66)",
-          "range": 25
+          "range": 0
         }
       },
       "group": {
-        "col_border_active": "rgba(BF111188)",
+        "col_border_active": "rgba(BF1111FF)",
         "col_border_inactive": "rgba(120B0D88)"
       }
     },
