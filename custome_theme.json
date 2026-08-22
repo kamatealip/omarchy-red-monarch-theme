@@ -1,42 +1,42 @@
 {
   "name": "RedMonarch_Master",
   "created_at": "2025-10-14T16:21:09.326661916+00:00",
-  "modified_at": "2025-12-31T09:44:00.000000000+00:00",
+  "modified_at": "2026-08-22T00:00:00.000000000+05:30",
   "apps": {
     "alacritty": {
       "colors": {
         "bright": {
-          "black": "#160A0D",
-          "blue": "#BF1111",
-          "cyan": "#EDEDED",
-          "green": "#BF1111",
-          "magenta": "#BF1111",
-          "red": "#BF1111",
-          "white": "#EDEDED",
-          "yellow": "#BF1111"
+          "black": "#2A2025",
+          "blue": "#FF7AA3",
+          "cyan": "#FFEAF2",
+          "green": "#F4618E",
+          "magenta": "#FF5F91",
+          "red": "#FF4D80",
+          "white": "#FFEAF2",
+          "yellow": "#FFD1DF"
         },
         "cursor": {
-          "text": "#10090B",
-          "cursor": "#BF1111"
+          "text": "#191414",
+          "cursor": "#F1396D"
         },
         "normal": {
-          "black": "#120B0D",
-          "blue": "#BF1111",
-          "cyan": "#BF1111",
-          "green": "#BF1111",
-          "magenta": "#BF1111",
-          "red": "#BF1111",
-          "white": "#EDEDED",
-          "yellow": "#BF1111"
+          "black": "#191414",
+          "blue": "#FF6F9B",
+          "cyan": "#F88AB0",
+          "green": "#D93665",
+          "magenta": "#F1396D",
+          "red": "#F1396D",
+          "white": "#FFEAF2",
+          "yellow": "#FFB3CA"
         },
         "primary": {
-          "background": "#10090B",
-          "dim_foreground": "#291217",
-          "foreground": "#EDEDED"
+          "background": "#191414",
+          "dim_foreground": "#6F555F",
+          "foreground": "#FFEAF2"
         },
         "selection": {
-          "background": "#32292C",
-          "text": "#EDEDED"
+          "background": "#3A1F29",
+          "text": "#FFEAF2"
         }
       },
       "font": {
@@ -44,103 +44,104 @@
       },
       "window": {
         "padding": { "x": 18, "y": 14 },
-        "opacity": 0.98
+        "opacity": 0.97
       }
     },
     "btop": {
-      "available_end": "#BF1111",
-      "available_mid": "#BF1111",
-      "available_start": "#BF1111",
-      "cached_end": "#BF1111",
-      "cached_mid": "#BF1111",
-      "cached_start": "#BF1111",
+      "available_end": "#FFB3CA",
+      "available_mid": "#F1396D",
+      "available_start": "#D93665",
+      "cached_end": "#FFB3CA",
+      "cached_mid": "#F1396D",
+      "cached_start": "#D93665",
       "colors": {
         "basic": {
-          "hi_fg": "#BF1111",
-          "selected_bg": "#BF1111"
+          "hi_fg": "#F1396D",
+          "selected_bg": "#F1396D"
         },
-        "cpu": { "cpu_mid": "#BF1111" },
+        "cpu": { "cpu_mid": "#FF6F9B" },
         "memory": {
-          "available_mid": "#BF1111",
-          "cached_mid": "#BF1111",
-          "free_mid": "#BF1111",
-          "used_mid": "#BF1111"
+          "available_mid": "#F1396D",
+          "cached_mid": "#F1396D",
+          "free_mid": "#FFB3CA",
+          "used_mid": "#F1396D"
         },
-        "temperature": { "temp_mid": "#BF1111" }
+        "temperature": { "temp_mid": "#F1396D" }
       },
-      "cpu_box": "#BF1111",
-      "cpu_start": "#BF1111",
-      "div_line": "#BF1111",
-      "hi_fg": "#BF1111",
-      "main_fg": "#EDEDED",
-      "selected_bg": "#BF1111",
-      "selected_fg": "#EDEDED",
-      "title": "#BF1111"
+      "cpu_box": "#3A1F29",
+      "cpu_start": "#F1396D",
+      "div_line": "#6F555F",
+      "hi_fg": "#F1396D",
+      "main_fg": "#FFEAF2",
+      "selected_bg": "#F1396D",
+      "selected_fg": "#191414",
+      "title": "#F1396D"
     },
     "hyprland": {
       "general": {
-        "active_border": "rgba(BF1111FF)",
-        "inactive_border": "rgba(120B0D99)",
-        "border_size": 3,
-        "gaps_in": 2,
-        "gaps_out": 6
+        "active_border": "rgba(F1396DFF)",
+        "inactive_border": "rgba(2A202588)",
+        "border_size": 2,
+        "gaps_in": 3,
+        "gaps_out": 8
       },
       "decoration": {
-        "rounding": 15,
+        "rounding": 8,
         "active_opacity": 0.98,
-        "inactive_opacity": 0.98,
+        "inactive_opacity": 0.94,
         "shadow": {
-          "enabled": false,
-          "color": "rgba(BF111166)",
-          "color_inactive": "rgba(10090B66)",
-          "range": 0
+          "enabled": true,
+          "color": "rgba(F1396D33)",
+          "color_inactive": "rgba(19141455)",
+          "range": 12
         }
       },
       "group": {
-        "col_border_active": "rgba(BF1111FF)",
-        "col_border_inactive": "rgba(120B0D88)"
+        "col_border_active": "rgba(F1396DFF)",
+        "col_border_inactive": "rgba(2A202588)"
       }
     },
     "mako": {
-      "background_color": "#10090BCC",
-      "border_color": "#BF1111AA",
-      "text_color": "#EDEDED",
-      "progress_color": "#BF111188",
+      "background_color": "#191414DD",
+      "border_color": "#F1396DAA",
+      "text_color": "#FFEAF2",
+      "progress_color": "#F1396D99",
       "border_size": 2,
+      "border_radius": 8,
       "font": "JetBrainsMono Nerd Font 11"
     },
     "walker": {
-      "background": "rgba(16, 9, 11, 0.75)",
-      "border": "#BF1111",
-      "input_color": "#BF1111",
-      "selected_bg": "linear-gradient(90deg, rgba(191, 17, 17, 0.25), transparent)",
-      "text_color": "#EDEDED"
+      "background": "rgba(25, 20, 20, 0.94)",
+      "border": "#F1396D80",
+      "input_color": "#F1396D",
+      "selected_bg": "linear-gradient(90deg, rgba(241, 57, 109, 0.24), transparent)",
+      "text_color": "#FFEAF2"
     },
     "waybar": {
-      "background": "rgba(16, 9, 11, 0.75)",
-      "border_bottom": "#BF1111",
+      "background": "rgba(25, 20, 20, 0.82)",
+      "border_bottom": "#F1396D",
       "modules": {
-        "clock": "#BF1111",
-        "cpu": "#BF1111",
-        "memory": "#BF1111",
-        "workspaces_active": "#BF1111"
+        "clock": "#FFEAF2",
+        "cpu": "#F1396D",
+        "memory": "#FF7AA3",
+        "workspaces_active": "#F1396D"
       }
     }
   },
   "colors": {
     "primary": {
-      "background": "#10090B",
-      "foreground": "#EDEDED",
-      "accent": "#BF1111",
-      "glow": "#BF1111"
+      "background": "#191414",
+      "foreground": "#FFEAF2",
+      "accent": "#F1396D",
+      "glow": "#F1396D"
     },
     "terminal": {
-      "red": "#BF1111",
-      "green": "#BF1111",
-      "yellow": "#BF1111",
-      "blue": "#BF1111",
-      "magenta": "#BF1111",
-      "cyan": "#BF1111"
+      "red": "#F1396D",
+      "green": "#D93665",
+      "yellow": "#FFB3CA",
+      "blue": "#FF6F9B",
+      "magenta": "#F1396D",
+      "cyan": "#F88AB0"
     }
   }
 }

@@ -1,25 +1,35 @@
 [window]
 decorations = "none"
-opacity = 0.98 # Slight transparency for readability
+opacity = 0.97
 
 [font]
 size = 11.0
 
 [colors.primary]
-background = "#10090B" # Void Black
-foreground = "#EDEDED" # Moonlit White
+background = "#191414"
+foreground = "#FFEAF2"
 
 [colors.normal]
-black   = "#120B0D"
-red     = "#BF1111"
-green   = "#BF1111"
-yellow  = "#BF1111"
-blue    = "#BF1111" # Sword Glow Red
-magenta = "#BF1111"
-cyan    = "#BF1111"
-white   = "#EDEDED"
+black   = "#191414"
+red     = "#F1396D"
+green   = "#D93665"
+yellow  = "#FFB3CA"
+blue    = "#FF6F9B"
+magenta = "#F1396D"
+cyan    = "#F88AB0"
+white   = "#FFEAF2"
+
+[colors.bright]
+black   = "#2A2025"
+red     = "#FF4D80"
+green   = "#F4618E"
+yellow  = "#FFD1DF"
+blue    = "#FF7AA3"
+magenta = "#FF5F91"
+cyan    = "#FFEAF2"
+white   = "#FFEAF2"
 
 
 [colors.selection]
-background = "#32292C"
-text = "#EDEDED"
+background = "#3A1F29"
+text = "#FFEAF2"

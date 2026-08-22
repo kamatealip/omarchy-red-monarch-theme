@@ -1,10 +1,10 @@
-/* ── Minimalist Red Monarch OSD ── */
+/* Red Monarch OSD */
 
-@define-color bg        #10090B; /* Deep red-black base */
-@define-color fg        #EDEDED; /* Moonlit white text */
-@define-color border    #BF1111; /* Hair Red */
-@define-color progress1 #BF1111; /* Sword Glow Red */
-@define-color progress2 #BF1111; /* Vivid Red */
+@define-color bg        #191414;
+@define-color fg        #FFEAF2;
+@define-color border    #F1396D;
+@define-color progress1 #F1396D;
+@define-color progress2 #FF7AA3;
 
 window {
   background-color: transparent;
@@ -14,25 +14,24 @@ window {
   box-shadow: none;
 }
 
-/* Minimal Floating Bar */
 .osd,
 #osd,
 osd {
-  background-color: alpha(@bg, 0.85); /* Darker, less transparent for clarity */
-  border: 1px solid @border; /* Single sharp border */
-  border-radius: 10px; /* Tighter rounding for minimal look */
+  background-color: alpha(@bg, 0.88);
+  border: 1px solid alpha(@border, 0.74);
+  border-radius: 8px;
   box-shadow:
-    inset 0 1px 0 alpha(@fg, 0.05),
-    0 8px 22px alpha(@progress1, 0.16);
-  backdrop-filter: blur(8px);
-  padding: 12px 20px; /* Compact spacing */
-  font-family: "JetBrains Mono", monospace; /* Clean typography */
-  font-size: 11px; /* Match theme-wide font size */
+    inset 0 1px 0 alpha(@fg, 0.07),
+    0 10px 28px alpha(@progress1, 0.22);
+  backdrop-filter: blur(10px);
+  padding: 12px 20px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
 }
 
 image {
   color: @fg;
-  -gtk-icon-size: 32px; /* Scaled down icon */
+  -gtk-icon-size: 32px;
   margin: 0 12px 0 0;
 }
 
@@ -42,22 +41,21 @@ label {
   margin: 0;
 }
 
-/* Slim Progress Bar */
 progressbar {
   margin-top: 8px;
 }
 
 progressbar > trough,
 progressbar trough {
-  background: rgba(191, 17, 17, 0.4); /* Subtle track */
-  border-radius: 4px; /* Sharp corners for the progress track */
-  min-height: 4px; /* Much thinner bar */
+  background: rgba(241, 57, 109, 0.24);
+  border-radius: 4px;
+  min-height: 4px;
 }
 
 progressbar > trough > progress,
 progressbar progress {
-  background: linear-gradient(90deg, @progress1, @progress2); /* Vibrant red */
-  box-shadow: 0 0 8px alpha(@progress1, 0.28);
+  background: linear-gradient(90deg, @progress1, @progress2);
+  box-shadow: 0 0 8px alpha(@progress1, 0.32);
   border-radius: 4px;
   min-height: 4px;
 }

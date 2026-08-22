@@ -1,74 +1,73 @@
-# ── Red Monarch (Monochrome Red Atmospheric) ──
-# Matches the red-black gradient from the Alacritty setup.
+# Red Monarch (Rose Black)
 
 # Main background, leave empty for transparency
 theme[main_bg]=""
 
-# Main text color (Pale moonlit pink-white)
-theme[main_fg]="#EDEDED"
+# Main text color
+theme[main_fg]="#FFEAF2"
 
-# Title color for boxes (Vibrant hair red)
-theme[title]="#BF1111"
+# Title color for boxes
+theme[title]="#F1396D"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#BF1111"
+theme[hi_fg]="#F1396D"
 
-# Background color of selected item in processes box (Deep red-black)
-theme[selected_bg]="#BF1111"
+# Background color of selected item in processes box
+theme[selected_bg]="#F1396D"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#EDEDED"
+theme[selected_fg]="#191414"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#291217"
+theme[inactive_fg]="#6F555F"
 
 # Misc colors for processes box including mini cpu graphs
-theme[proc_misc]="#8A1A1A"
+theme[proc_misc]="#FF7AA3"
 
 # Box outline and divider line color
-theme[cpu_box]="#32292C"
-theme[mem_box]="#32292C"
-theme[net_box]="#32292C"
-theme[proc_box]="#32292C"
-theme[div_line]="#8A1A1A"
+theme[cpu_box]="#3A1F29"
+theme[mem_box]="#3A1F29"
+theme[net_box]="#3A1F29"
+theme[proc_box]="#3A1F29"
+theme[div_line]="#6F555F"
 
-# Gradients for all meters and graphs (Going from Glow-Red to Deep-Red)
-theme[temp_start]="#BF1111"
-theme[temp_mid]="#BF1111"
-theme[temp_end]="#BF1111"
+# Gradients for all meters and graphs
+theme[temp_start]="#FFB3CA"
+theme[temp_mid]="#F1396D"
+theme[temp_end]="#FF4D80"
 
-theme[cpu_start]="#BF1111"
-theme[cpu_mid]="#BF1111"
-theme[cpu_end]="#BF1111"
+theme[cpu_start]="#F1396D"
+theme[cpu_mid]="#FF6F9B"
+theme[cpu_end]="#FFEAF2"
 
-theme[mem_start]="#BF1111"
-theme[mem_mid]="#BF1111"
-theme[mem_end]="#BF1111"
+theme[mem_start]="#D93665"
+theme[mem_mid]="#F1396D"
+theme[mem_end]="#FFB3CA"
 
-theme[net_start]="#EDEDED"
-theme[net_mid]="#BF1111"
-theme[net_end]="#BF1111"
+theme[net_start]="#FFEAF2"
+theme[net_mid]="#FF7AA3"
+theme[net_end]="#F1396D"
 
-theme[proc_start]="#BF1111"
-theme[proc_mid]="#BF1111"
-theme[proc_end]="#BF1111"
+theme[proc_start]="#F1396D"
+theme[proc_mid]="#FF5F91"
+theme[proc_end]="#FFEAF2"
 
 # Bottom bar
 theme[btm_bg]=""
-theme[btm_fg]="#EDEDED"
+theme[btm_fg]="#FFEAF2"
 
-# ── Explicit overrides (Red Spectrum) ──
-theme[power]       = "#BF1111"
-theme[cpu_power]   = "#BF1111"
-theme[watts]       = "#BF1111"
-theme[freq]        = "#BF1111"
-theme[cpu_freq]    = "#BF1111"
-theme[ghz]         = "#BF1111"
-theme[temp]        = "#EDEDED"
-theme[temp_crit]   = "#BF1111"
-theme[gpu_power]   = "#BF1111"
-theme[gpu_freq]    = "#BF1111"
-theme[gpu_temp]    = "#BF1111"
-theme[cpu_text]    = "#EDEDED"
+# Explicit overrides
+theme[power]       = "#F1396D"
+theme[cpu_power]   = "#F1396D"
+theme[watts]       = "#F1396D"
+theme[freq]        = "#FF7AA3"
+theme[cpu_freq]    = "#FF7AA3"
+theme[ghz]         = "#FF7AA3"
+theme[temp]        = "#FFEAF2"
+theme[temp_crit]   = "#FF4D80"
+theme[gpu_power]   = "#F1396D"
+theme[gpu_freq]    = "#FF7AA3"
+theme[gpu_temp]    = "#FF4D80"
+theme[cpu_text]    = "#FFEAF2"
 
-# ── End Red Monarch Theme ──
+# End Red Monarch Theme

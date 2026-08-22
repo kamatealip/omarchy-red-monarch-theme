@@ -4,7 +4,7 @@
 
 ![Red Monarch Theme](./preview.png)
 
-A sleek red-themed color scheme for Omarchy.
+A rose-black Omarchy theme built around `#191414`, blush text, and a vivid rose primary.
 
 ## Installation
 
@@ -13,14 +13,17 @@ A sleek red-themed color scheme for Omarchy.
 
 ## Features
 
-- **Primary Color**: Deep red palette
-- **Accent Colors**: Complementary reds and gold tones
-- **Customizable**: Modify colors in `theme.json`
+- **Background**: `#191414`
+- **Foreground**: `#FFEAF2`
+- **Primary**: `#F1396D`
+- **Customizable**: Modify colors in `colors.toml` and the app-specific theme files
 
 ## Files
 
-- `theme.json` - Theme configuration
-- `README.md` - This file
+- `colors.toml` - Shared Omarchy palette
+- `alacritty.toml`, `kitty.conf`, `ghostty.conf` - Terminal palettes
+- `waybar.css`, `walker.css`, `mako.ini`, `swayosd.css`, `hyprland.conf`, `hyprlock.conf` - Desktop shell styling
+- `btop.theme`, `eza.yml` - CLI helper themes
 
 ## Usage
 
